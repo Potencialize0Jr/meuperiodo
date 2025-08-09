@@ -41,7 +41,6 @@
         { "name": "Português Instrumental 4", "value": "Portugues4", "carga_horaria": "30h", "prerequisite": [] }
     ],
     "5": [
-        { "name": "Complementos de Matemática", "value": "ComplementosMatematica", "carga_horaria": "45h", "prerequisite": ["Calculo3"] },
         { "name": "Componentes de Sistemas Elétricos", "value": "ComponentesSistemasEletricos", "carga_horaria": "45h", "prerequisite": [], "corequisite": ["ConversaoEletromecanicaEnergia"] },
         { "name": "Conversão Eletromecânica de Energia", "value": "ConversaoEletromecanicaEnergia", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Eletrônica 1", "value": "Eletronica1", "carga_horaria": "75h", "prerequisite": ["CircuitosEletricos1"] },
@@ -91,6 +90,7 @@
     "OPTATIVAS": [
         { "name": "Aterramento", "value": "Aterramento", "carga_horaria": "60h", "prerequisite": ["MedidasEletromagneticas"] },
         { "name": "Comunicações Óticas", "value": "ComunicacoesOticas", "carga_horaria": "60h", "prerequisite": ["Fisica4"] },
+        { "name": "Complementos de Matemática", "value": "ComplementosMatematica", "carga_horaria": "45h", "prerequisite": ["Calculo3"] },
         { "name": "Confiabilidade", "value": "Confiabilidade", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Educação das Relações Étnico-Raciais", "value": "EducacaoRelacoesEtnicoRaciais", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Eletromagnetismo Avançado", "value": "EletromagnetismoAvancado", "carga_horaria": "60h", "prerequisite": ["Eletromagnetismo2"] },
@@ -121,3 +121,4 @@
     ]
 
 }
+
